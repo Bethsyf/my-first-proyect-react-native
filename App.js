@@ -2,8 +2,11 @@ import { StyleSheet, Text, View } from 'react-native';
 import LoginForm from './src/components/LoginForm';
 import Saludo from './src/components/Saludo'
 
+import { NavigationContainer } from '@react-navigation/native';
+
 export default function App() {
   return (
+    <NavigationContainer>
     <View style={styles.container}>
       <Text>Mi primer proyecto.</Text>
       <LoginForm/>
@@ -11,6 +14,7 @@ export default function App() {
       {/* <Saludo name='sergio'/>
       <Saludo name='gaby'/> */}
     </View>
+    </NavigationContainer>
   );
 }
 
