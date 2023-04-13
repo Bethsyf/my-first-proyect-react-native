@@ -1,5 +1,6 @@
 import React from 'react'
 import {View, Text} from 'react-native'
+import PropTypes from 'prop-types'
 
 const Saludo = (props) => {
   const { firstname, lastname } = props;
@@ -10,9 +11,14 @@ const Saludo = (props) => {
   )
 }
 
-Saludo.defaultProps = {
-  firstname: "bethsy",
-  lastname: "falcon",
+// Saludo.defaultProps = {
+//   firstname: "bethsy",
+//   lastname: "falcon",
+// }
+
+Saludo.propTypes = {
+  firstname: PropTypes.string.isRequired,
+  lastname: PropTypes.string.isRequired
 }
 
 

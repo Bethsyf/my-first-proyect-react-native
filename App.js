@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Mi primer proyecto.</Text>
       <LoginForm/>
-      <Saludo  />
+      <Saludo firstname='gaby' lastname='rendon' />
       {/* <Saludo name='sergio'/>
       <Saludo name='gaby'/> */}
     </View>
