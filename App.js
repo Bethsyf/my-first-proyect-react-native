@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
-import LoginForm from './src/components/loginForm';
+import LoginForm from './src/components/LoginForm';
 import Saludo from './src/components/Saludo'
 
 export default function App() {
@@ -7,9 +7,9 @@ export default function App() {
     <View style={styles.container}>
       <Text>Mi primer proyecto.</Text>
       <LoginForm/>
-      <Saludo name='luis'/>
-      <Saludo name='sergio'/>
-      <Saludo name='gaby'/>
+      <Saludo  />
+      {/* <Saludo name='sergio'/>
+      <Saludo name='gaby'/> */}
     </View>
   );
 }
