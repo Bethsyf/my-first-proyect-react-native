@@ -10,11 +10,12 @@ const SettingScreen = (props) => {
     }
   return (
     <View>
-      <Text>Esta es la pantalla de configuración</Text>
+      <Text>¡Hola! Bienvenido/a a la pantalla de configuración.</Text> 
+      <Text>Por favor, seleccione las opciones que desea configurar para su aplicación.</Text>
       <Button title='Ir a Home' onPress={()=>gotoHome('Home')}/>
     </View>
   );
 };
 
-// Exportación del componente SettingScreen
+
 export default SettingScreen;

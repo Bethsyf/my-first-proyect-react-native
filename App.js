@@ -3,21 +3,29 @@ import LoginForm from './src/components/LoginForm';
 import Saludo from './src/components/Saludo'
 
 import { NavigationContainer } from '@react-navigation/native';
-import NavigationStack from './src/navigation/NavigationStack'
+import NavigationStack from './src/navigation/NavigationStack';
+import NavigationTap from './src/navigation/NavigationTab'
+
+import NavigationDrawer from './src/navigation/NavigationDrawer'
 
 export default function App() {
   return (
     <NavigationContainer>
+   
     {/* <View style={styles.container}>
-      <Text>Mi primer proyecto.      
-      </Text>
+      <Text>"Mi primera aplicación móvil con React Native.</Text>
       <LoginForm/>
-      <Saludo firstname='gaby' lastname='rendon' />
-      {/* <Saludo name='sergio'/>
-      <Saludo name='gaby'/> 
+      <Saludo firstname='Gaby' lastname='Rendon' />
+      <Saludo firstname='Sergio' lastname='rendon'/>
+      <Saludo firstname='Mary' lastname='Lopez'/> 
+      <Saludo/>
     </View> */}
+   
     <NavigationStack/>
-    </NavigationContainer>
+     {/* <NavigationTap/> */}
+    {/* <NavigationDrawer/>  */}
+  </NavigationContainer>
+     
   );
 }
 
