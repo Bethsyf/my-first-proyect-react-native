@@ -14,15 +14,15 @@ export default function App() {
    
     {/* <View style={styles.container}>
       <Text>"Mi primera aplicación móvil con React Native.</Text>
-      <LoginForm/>
+       <LoginForm/>
       <Saludo firstname='Gaby' lastname='Rendon' />
       <Saludo firstname='Sergio' lastname='rendon'/>
       <Saludo firstname='Mary' lastname='Lopez'/> 
       <Saludo/>
     </View> */}
    
-    <NavigationStack/>
-     {/* <NavigationTap/> */}
+    {/* <NavigationStack/> */}
+     <NavigationTap/>
     {/* <NavigationDrawer/>  */}
   </NavigationContainer>
      
