@@ -3,7 +3,7 @@ import {View, Text} from 'react-native'
 import PropTypes from 'prop-types'
 
 const Saludo = ({ firstname, lastname }) => {
-const {firt}
+
   return (
     <View>
         <Text>hola {firstname} {lastname} ¿como estas?</Text>
